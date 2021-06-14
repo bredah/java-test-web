@@ -16,7 +16,7 @@ public enum BrowserFactory {
     CHROME {
         @Override
         public WebDriver createDriver() {
-            WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
+            WebDriverManager.getInstance(DriverManagerType.CHROME).browserVersion("browserVersion").setup();
             return new ChromeDriver(getOptions());
         }
 

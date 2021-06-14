@@ -1,15 +1,10 @@
 package bredah.test;
 
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
 
 import java.text.ParseException;
-import java.util.Locale;
 
-import com.github.javafaker.Faker;
-
-import org.seleniumhq.jetty9.server.Authentication;
 import org.testng.annotations.Test;
 
 import bredah.BaseWeb;
